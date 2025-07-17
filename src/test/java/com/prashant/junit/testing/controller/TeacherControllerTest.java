@@ -24,13 +24,13 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 
+import com.prashant.junit.testing.model.TeacherDetails;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.prashant.junit.testing.dto.StudentDetailsDto;
 import com.prashant.junit.testing.dto.TeacherRequestDto;
 import com.prashant.junit.testing.dto.TeacherResponseDto;
 import com.prashant.junit.testing.jwt.JwtService;
 import com.prashant.junit.testing.model.StudentDetails;
-import com.prashant.junit.testing.model.TeacherDetails;
 import com.prashant.junit.testing.security.JwtAuthFilter;
 import com.prashant.junit.testing.service.TeacherService;
 

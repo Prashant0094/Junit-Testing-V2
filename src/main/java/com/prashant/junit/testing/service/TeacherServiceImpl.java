@@ -10,12 +10,12 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.prashant.junit.testing.model.TeacherDetails;
 import com.prashant.junit.testing.dto.StudentDetailsDto;
 import com.prashant.junit.testing.dto.TeacherRequestDto;
 import com.prashant.junit.testing.dto.TeacherResponseDto;
 import com.prashant.junit.testing.exception.ResourceNotFoundException;
 import com.prashant.junit.testing.model.StudentDetails;
-import com.prashant.junit.testing.model.TeacherDetails;
 import com.prashant.junit.testing.repository.StudentRepo;
 import com.prashant.junit.testing.repository.TeacherRepo;
 

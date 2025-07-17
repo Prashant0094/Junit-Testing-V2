@@ -15,9 +15,9 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
+import com.prashant.junit.testing.model.TeacherDetails;
 import com.prashant.junit.testing.dto.TeacherRequestDto;
 import com.prashant.junit.testing.dto.TeacherResponseDto;
-import com.prashant.junit.testing.model.TeacherDetails;
 import com.prashant.junit.testing.repository.TeacherRepo;
 import com.prashant.junit.testing.security.CustomUserDetailsService;
 
