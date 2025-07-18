@@ -1,0 +1,81 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="TeacherReport" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="fe3d0484-a2bf-4df4-9d8b-18c8a48ac3c0">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<query language="sql"><![CDATA[]]></query>
+	<field name="teacherId" class="java.lang.Integer"/>
+	<field name="teacherName" class="java.lang.String"/>
+	<field name="teacherEmail" class="java.lang.String"/>
+	<background splitType="Stretch"/>
+	<title height="51" splitType="Stretch">
+		<element kind="textField" uuid="1a0cf56c-f847-4275-b381-1082aa3315f1" x="50" y="10" width="299" height="41" markup="styled" fontSize="16.0" blankWhenNull="false" hTextAlign="Center">
+			<expression><![CDATA["Teachers List"]]></expression>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.width" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+	</title>
+	<columnHeader height="31" splitType="Stretch">
+		<element kind="staticText" uuid="a6c157b9-8825-408a-b0e1-cdde567d6a99" x="0" y="1" width="60" height="28">
+			<text><![CDATA[Teacher ID]]></text>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="342e40bc-712e-4cb2-8dbe-6faab4da8eb8" x="70" y="1" width="120" height="28">
+			<text><![CDATA[Teacher Name]]></text>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="staticText" uuid="9b89da9a-27c7-4add-9bbd-b71e70010ea3" x="210" y="1" width="229" height="28">
+			<text><![CDATA[Tecaher Email]]></text>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="rectangle" uuid="3349f5c9-9439-4c92-b7e9-f3c4150e43c3" mode="Transparent" x="0" y="0" width="440" height="30">
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="1c6314b3-1ee8-4422-82c9-47547d0c15f5" x="65" y="0" width="1" height="30">
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<element kind="line" uuid="58fd2acc-271a-4098-91e9-c09919f86fa3" x="199" y="0" width="1" height="30">
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</element>
+		<property name="com.jaspersoft.studio.unit.height" value="px"/>
+	</columnHeader>
+	<detail>
+		<band height="33" splitType="Stretch">
+			<element kind="textField" uuid="c2aecd47-86ac-422f-b2f7-232dedc7e025" x="0" y="2" width="60" height="28" hTextAlign="Center">
+				<expression><![CDATA[$F{teacherId}]]></expression>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="textField" uuid="eaffc5a4-1584-437d-b67e-697694da0fc5" x="70" y="2" width="120" height="28">
+				<expression><![CDATA[$F{teacherName}]]></expression>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="textField" uuid="e0bcf302-9e48-4d7f-80e2-a0defdda9ae2" x="210" y="2" width="230" height="28">
+				<expression><![CDATA[$F{teacherEmail}]]></expression>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="rectangle" uuid="886c3dba-b417-4655-aa0c-5b84c5207939" mode="Transparent" x="0" y="0" width="440" height="32">
+				<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="line" uuid="05bda0c8-59f2-457c-ac0e-1593d4c011fa" x="65" y="0" width="1" height="32">
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<element kind="line" uuid="189cb0d1-5234-4db0-97fc-800d9b8ce653" x="199" y="0" width="1" height="32">
+				<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			</element>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</detail>
+</jasperReport>
